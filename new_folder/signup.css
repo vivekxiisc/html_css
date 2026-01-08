@@ -1,0 +1,36 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: antiquewhite;
+    margin-top: 120px;
+    flex-direction: column;
+    
+}
+.main{
+    background-color: aqua;
+    text-align: center;
+    width: 500px;
+    height: auto;
+}
+label{
+    display: block;
+    padding-top: 10px;
+    text-align: left;
+    width: 81%
+}
+input{
+    display: block;
+    text-align:left;
+    margin-left: 0px;
+    width: 97%;
+}
+button{
+    background-color: rgb(135, 135, 167);
+    margin-top: 5px;
+}
+h3{
+    color: green;
+    /* background-color: black; */
+
+}

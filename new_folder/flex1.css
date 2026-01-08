@@ -1,0 +1,50 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: white
+    padding: 10px;
+}
+.container{
+    /* background-color: aquamarine; */
+    gap: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center ;
+    margin-top: 100px;
+
+}
+.first{
+    width: 300px;
+    height: 300px;
+    /* background-color: brown; */
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+}
+.second{
+    width: 300px;
+    height: 300px;
+    /* background-color: brown; */
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.one{
+    background-color:red;
+    height: 50% ;
+    width: 50%;
+}
+.two{
+    background-color: red   ;
+    height: 50%;
+    width: 50%;
+}

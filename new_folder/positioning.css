@@ -1,0 +1,29 @@
+ /* h1{
+    position: relative;
+    top: 10px;
+}  */
+/* h2{
+    position: relative;
+    left: 100px;
+    top: 50px;
+}
+h3{
+    position: sticky;
+    top: 1px;
+}*/
+div{
+    position: relative;
+    background-color: rgb(255, 0, 0);
+    height: 1000px;
+} 
+h4{
+    position: absolute;
+    background-color: aliceblue;
+    left: px;
+    top:    0px;
+    padding: 50px;
+    z-index: 10px;
+}
+*{
+    margin: 0px;
+}

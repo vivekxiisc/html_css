@@ -1,0 +1,46 @@
+/* element selector */
+/*h1{
+background-color:yellowgreen;
+font-size:30px;
+font-weight:100px;
+}
+/* class selection */
+/*.new{
+    background-color:yellowgreen;
+}
+/* id selection */
+/*#first{
+    background-color: navy;
+}
+/* group selection  */
+/* h1,#first,.new{
+    background-color: mediumaquamarine;
+    font-size: larger;
+    font-weight: 500;
+} */
+
+/* rgb use  */
+
+ /* h1,#first,.new{
+    background-color:rgb(110,50,96);
+    font-size: larger;
+    font-weight: 500;
+} */
+ 
+/* hsl use  */
+
+ /* h1,#first,.new{
+    background-color:hsl(114, 82%, 27%);
+    font-size: larger;
+    font-weight: 500;
+} */
+
+ /* #hsl use */
+
+ h1,#first,.new{
+    background-color:#452264;
+    font-size: larger;
+    font-weight: 500;
+    font-style:italic;
+    font-variant: small-caps;
+}

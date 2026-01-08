@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Box Sizing Example</title>
+    <style>
+        /* Common style for both boxes */
+        .box {
+            width: 200px;           /* Width given */
+            padding: 20px;         /* Space inside box */
+            border: 5px solid black; /* Border */
+            margin-bottom: 20px;
+        }
+
+        /* Default box-sizing */
+        .content-box {
+            box-sizing: content-box;
+            background-color: lightblue;
+        }
+
+        /* Border-box */
+        .border-box {
+            box-sizing: border-box;
+            background-color: lightgreen;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- content-box example -->
+    <div class="box content-box">
+        Content Box
+        <!-- Actual width = 200 + 20 + 20 + 5 + 5 = 250px -->
+    </div>
+
+    <!-- border-box example -->
+    <div class="box border-box">
+        Border Box
+        <!-- Actual width = 200px (padding & border included) -->
+    </div>
+
+</body>
+</html>

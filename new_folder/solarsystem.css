@@ -1,0 +1,76 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    /* background: radial-gradient(circle, #000 40%, #020024); */
+    background-color: rgb(16, 15, 15);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+.solar-system{
+    position: relative;
+    height: 400px;
+    width: 400px;
+}
+.sun{
+    position: absolute;
+    background-color: yellow;
+    top: 50%;
+    left: 50%;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 50px rgb(233, 90, 7);
+    /* box-shadow:  */
+    transform: translate(-50%,-50%);
+    /* background: radial-gradient(20px red); */
+}
+.orbit{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 50%;
+    border-color: rgb(126, 140, 151);
+    border-style: dashed;
+    border-width: 1px ;
+    transform: translate(-50%,-50%);
+    animation-name: rotate;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    /* animation-duration: 3s; */
+    animation-timing-function: linear;
+}
+
+.planet{
+    position : absolute;
+    left: 100%;
+    top: 50%;
+    transform: translate(-50% ,-50% ) ;
+    border-radius: 50%;   
+}
+.earth{
+    width: 230px;
+    height: 230px;
+    animation-duration: 10s;
+}
+.earth .planet{
+    width: 14px;
+    height: 14px;
+    background-color: #2a6cff;
+    
+}
+@keyframes rotate {
+    from{
+        transform: translate( -50%, -50% )
+        rotate(0deg);
+    }
+    to{
+        transform: translate(-50% , -50%)
+        rotate(360deg);
+    }
+}

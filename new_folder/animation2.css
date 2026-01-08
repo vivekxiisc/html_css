@@ -1,0 +1,39 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    height: 100px;
+    width: 500px;
+    background-color: rgb(15, 221, 122);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    white-space: nowrap;
+    overflow: hidden;
+}
+p{
+    font-size: 40px;
+    animation-name: vivek;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-delay:0s ;
+    position: absolute;
+}
+@keyframes vivek {
+    from{
+        margin-left: 120%;
+    }
+    to{
+        margin-left: -160%;
+    }
+}
